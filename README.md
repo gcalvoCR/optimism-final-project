@@ -1,12 +1,13 @@
 # Optimism Final Project
 
-### Authors
+### Desarrolladores
 
-Gabriel Calvo Vargas
-Jun Zheng
-Andrey Melendez
+* **Gabriel Calvo Vargas** - [gCalvoCR](https://github.com/gcalvoCR)
+* **Kun Zheng** - [kunZhen](https://github.com/kunZhen)
+* **Andrey Melendez** - [4ndreyMS](https://github.com/4ndreyMS)
 
-## Esrtructura
+
+## Estructura
 El proyecto tiene 2 partes:
 - Un backend con el contrato
 - Un frontend con la interfaz gráfica que eventualmente consumira el contrato creado.
