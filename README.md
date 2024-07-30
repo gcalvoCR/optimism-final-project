@@ -6,6 +6,12 @@ Gabriel Calvo Vargas
 Jun Zheng
 Andrey Melendez
 
+## Esrtructura
+El proyecto tiene 2 partes:
+- Un backend con el contrato
+- Un frontend con la interfaz gráfica que eventualmente consumira el contrato creado.
+
+
 ### Funcionalidad 
 
 1. Emitir Credencial con fecha de expiración:
