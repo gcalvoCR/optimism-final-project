@@ -55,6 +55,8 @@ contract GradeTracker {
         // Hash of the student's identification
         bytes32 hash_studentId = keccak256(abi.encodePacked(_studentId));
         // Grade associated with the student's hash
+        require(Grades[hash_studentId] != 0, "Student doesn't seem to have a grade");
+
         uint student_grade = Grades[hash_studentId];
         // Display the grade
         return student_grade;
@@ -91,6 +93,7 @@ contract GradeTracker {
         // Hash of the student's identification
         bytes32 hash_studentId = keccak256(abi.encodePacked(_studentId));
         // Check if the grade is higher than 70
+        require(Grades[hash_studentId] != 0, "The student has no grades registered");
         require(Grades[hash_studentId] > 70, "Grade is not high enough to issue a credential.");
         // Issue the credential
         credentials[hash_studentId] = true;
@@ -103,6 +106,14 @@ contract GradeTracker {
         // Hash of the student's identification
         bytes32 hash_studentId = keccak256(abi.encodePacked(_studentId));
         // Return if the credential has been issued
+        require(Grades[hash_studentId] != 0, "The student has no grades registered");
+
         return credentials[hash_studentId];
+    }
+
+    function checkIfStudentHasGrade(string memory _studentId) public view returns (bool) {
+        // Hash of the student's identification
+        bytes32 hash_studentId = keccak256(abi.encodePacked(_studentId));
+        return Grades[hash_studentId] != 0;
     }
 }
