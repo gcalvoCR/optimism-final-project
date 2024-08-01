@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import './App.css'
 
 import getContract from './helpers/contract';
@@ -27,8 +27,14 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Credenciales</h1>
-      <button onClick={fetchCredentials}>Obtener Credenciales</button>
+      <h1>Page under construction!</h1>
+      <p>Get in touch with any of the devs:</p>
+      <ul>
+        <li>Gabriel Calvo</li>
+        <li>Kun Zhen</li>
+        <li>Andrey Melendez</li>
+      </ul>
+      <button onClick={fetchCredentials}>Page under construction!</button>
       <ul>
         {credentials.map((cred, index) => (
           <li key={index}>
