@@ -1,9 +1,9 @@
 # Optimism Final Project
 
-## Authors
-Gabriel Calvo Vargas
-Jun Zheng
-Andrey Melendez
+## Developers
+* **Gabriel Calvo Vargas** - [gCalvoCR](https://github.com/gcalvoCR)
+* **Kun Zheng** - [kunZhen](https://github.com/kunZhen)
+* **Andrey Melendez** - [4ndreyMS](https://github.com/4ndreyMS)
 
 ## Structure
 The project has 2 parts:
