@@ -1,8 +1,8 @@
 # Grade Tracker
-
 <p align="center">
-  <a href="https://www.optimism.io/" target="blank"><img src="https://www.optimism.io/optimism.svg" width="600" alt="Optimism Logo" /></a>
+  <a href="https://www.optimism.io/" target="blank"><img src="https://europe1.discourse-cdn.com/bc41dd/original/1X/391d6e71a279a9f881f75bfa7df5cdf3cf905b3f.png" width="300" alt="Optimism Logo" /></a>
 </p>
+
 
 This repository contains the final project for the [Optimism University module held at CENFOTEC University in Costa Rica](https://gov.optimism.io/t/optimism-university-module-in-costa-rica/8338). This intensive 7-week program, focusing on Blockchain, Web3, and Optimism technologies, equips students with comprehensive knowledge and hands-on experience. 
 
