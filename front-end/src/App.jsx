@@ -27,7 +27,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Page under construction!</h1>
+      <h1>Grade Tracker</h1>
       <p>Get in touch with any of the devs:</p>
       <ul>
         <li>Gabriel Calvo</li>
